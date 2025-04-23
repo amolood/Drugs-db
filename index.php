@@ -109,13 +109,12 @@
 
     <div id="drug-details" class="hidden bg-white shadow rounded-lg p-6 transition-all duration-300">
       <div class="flex items-center justify-between mb-4 print-hidden">
-        <h2 id="drug-title" class="text-2xl font-semibold text-indigo-700"></h2>
         <div class="flex gap-2">
           <button onclick="window.print()" class="bg-gray-200 hover:bg-gray-300 text-sm px-3 py-1 rounded">🖨️ Print</button>
           <button id="copy-link" class="bg-blue-100 hover:bg-blue-200 text-sm px-3 py-1 rounded">🔗 Copy Link</button>
         </div>
       </div>
-      <h2 id="drug-title-print" class="text-2xl font-semibold text-indigo-700 mb-4 hidden"></h2>
+      <h2 id="drug-title-print" class="text-2xl font-semibold text-indigo-700 mb-4"></h2>
       <div class="grid md:grid-cols-2 gap-4 text-gray-700 text-sm">
         <div>
           <h3 class="text-md font-bold text-gray-800 mb-1">Indications:</h3>
